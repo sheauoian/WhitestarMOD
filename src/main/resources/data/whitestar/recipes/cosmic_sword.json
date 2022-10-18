@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "whitestar:cosmic_planks"
+      }
+    },
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "result": {
+      "item": "whitestar:cosmic_sword"
+    }
+  }

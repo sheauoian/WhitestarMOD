@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 4,
+      "limit": 5,
+      "lower_size": 4,
+      "upper_size": 6
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "whitestar:cosmic_dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "whitestar:cosmic_log"
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_leaves"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 7,
+      "height_rand_a": 2,
+      "height_rand_b": 0
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 3,
+      "offset": 0,
+      "height": 2
+    },
+    "decorators": []
+  }
+}

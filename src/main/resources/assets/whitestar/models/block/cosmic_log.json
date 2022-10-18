@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "whitestar:block/cosmic_log_top",
+      "side": "whitestar:block/cosmic_log"
+    }
+  }

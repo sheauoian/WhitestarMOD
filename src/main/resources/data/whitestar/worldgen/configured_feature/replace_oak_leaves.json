@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "whitestar:cosmic_grass_block",
+          "probability": 0.2
+        },
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "persistent": "true",
+            "waterlogged": "false",
+            "distance": "1"
+          }
+        }
+      }
+    ]
+  }
+}

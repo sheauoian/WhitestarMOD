@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "whitestar:cosmic_forest",
+  "features": [
+    "whitestar:cosmic_rock_placed"
+  ],
+  "step": "vegetal_decoration"
+}

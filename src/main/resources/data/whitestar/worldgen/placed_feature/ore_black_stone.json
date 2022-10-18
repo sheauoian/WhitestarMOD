@@ -1,0 +1,12 @@
+{
+  "feature": "whitestar:ore_black_stone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

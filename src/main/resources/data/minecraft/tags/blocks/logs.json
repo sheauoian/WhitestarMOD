@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "whitestar:cosmic_log",
+        "whitestar:cosmic_wood",
+        "whitestar:stripped_cosmic_log",
+        "whitestar:stripped_cosmic_wood",
+        "whitestar:white_log",
+        "whitestar:white_wood",
+        "whitestar:stripped_white_log",
+        "whitestar:stripped_white_wood"
+    ]
+}

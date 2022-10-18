@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "whitestar:cosmic_forest",
+  "features": [
+    "whitestar:oistar_ore_placed"
+  ],
+  "step": "underground_ores"
+}

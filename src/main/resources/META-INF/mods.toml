@@ -1,0 +1,69 @@
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+
+
+
+modLoader = "javafml"
+
+loaderVersion = "[42,)"
+
+license = "All rights reserved"
+
+
+
+[[mods]]
+
+modId = "whitestar"
+
+version = "${file.jarVersion}"
+
+logoFile = "logo.png"
+
+
+
+displayName = "ホワイトスターMOD"
+
+credits = "SHEAUOIAN PRODUCTION"
+
+authors="_not_ka_not_"
+
+
+# A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+
+
+description='''
+ 「ほわいとさんのお部屋」様
+
+ 拝啓
+ 向寒の候、テメェイカがお過ごしでしょうか。まずは、略儀ながら書中をもってご挨拶申し上げます。
+ さて、この度のチャンネル登録者数 1500人のご達成誠におめでとうございます。
+ 貴殿のこれまでの眼の眩いご活躍は、すばらしくて、すごいです。おめでとうございます。今後とも、益々のご発展を陰ながら応援しております。
+ なお、心ばかりの私の家で収穫したForge Modをお祝いの品として
+ お送りいたします。どうぞご笑納ください。いいえ
+
+ 敬具
+ 
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.whitestar]] #optional
+    # the modid of the dependency
+    modId="whitestar" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[42,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.whitestar]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.19.1,1.20)"
+    ordering="NONE"
+    side="BOTH"

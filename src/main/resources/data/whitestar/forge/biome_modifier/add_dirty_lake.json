@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "whitestar:cosmic_forest",
+  "features": "whitestar:dirty_lake_placed",
+  "step": "lakes"
+}

@@ -1,0 +1,69 @@
+{
+    "depth": 0.1,
+    "scale": 0.1,
+    "precipitation": "none",
+    "temperature": 1.2,
+    "temperature_modifier": "none",
+    "downfall": 0,
+    "player_spawn_friendly": "true",
+    "creature_spawn_probability": 0.3,
+    "effects": {
+        "fog_color": 10000000,
+        "foliage_color": 11440866,
+        "grass_color": 11440866,
+        "sky_color": 11148615,
+        "water_color": 100000,
+        "water_fog_color": 100000,
+        "grass_color_modifier": "none",
+        "particle": { 
+            "probability": 0.001,
+            "options": {
+              "type": "minecraft:spit"
+            }
+          },
+        "mood_sound":{
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        }
+    },
+    "surface_builder": "whitestar:oistar",
+    "carvers": {
+        "air":[
+            "minecraft:cave",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_diamond",
+            "whitestar:ore_oistar",
+            "whitestar:ore_black_stone",
+            "minecraft:ore_diamond_large"
+        ],
+        [],
+        [],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:patch_grass_plain",
+            "whitestar:tree_cosmic_yellow",
+            "whitestar:tree_white_die"
+        ],
+        [
+            "whitestar:replace_oak_leaves"
+        ]
+    ],
+    "starts": [],
+    "spawners":{
+
+    },
+    "spawn_costs": {}
+}

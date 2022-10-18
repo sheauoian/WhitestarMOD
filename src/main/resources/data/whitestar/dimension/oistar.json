@@ -1,0 +1,36 @@
+{
+    "type": "whitestar:oistar",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "whitestar:oistar",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "whitestar:cosmic_forest",
+                    "parameters": {
+                        "temperature": 1.28,
+                        "humidity": 0.315,
+                        "continentalness": 0,
+                        "erosion": -0.5,
+                        "weirdness": -0.5,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "whitestar:cosmic_badland",
+                    "parameters": {
+                        "temperature": 1.3,
+                        "humidity": 0.2,
+                        "continentalness": 0,
+                        "erosion": -0.5,
+                        "weirdness": -0.5,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}
