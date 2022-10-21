@@ -28,7 +28,7 @@
             "offset": 2.0
         }
     },
-    "surface_builder": "whitestar:oistar",
+    "surface_builder": "whitestar:donfai",
     "carvers": {
         "air":[
             "minecraft:cave",

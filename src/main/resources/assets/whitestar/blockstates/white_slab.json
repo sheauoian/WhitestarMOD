@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "whitestar:block/white_slab"
+    },
+    "type=double": {
+      "model": "whitestar:block/white_planks"
+    },
+    "type=top": {
+      "model": "whitestar:block/white_slab_top"
+    }
+  }
+}

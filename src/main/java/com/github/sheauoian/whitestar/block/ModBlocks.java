@@ -227,6 +227,20 @@ public class ModBlocks {
             return 60;
         }
     }, ModCreativeModeTab.WhitestarTab);
+    public static final RegistryObject<Block> WHITE_PLANKS_SLAB = registerBlock("white_slab",
+            () -> new SlabBlock(
+                    BlockBehaviour.Properties.copy(
+                            ModBlocks.WHITE_PLANKS.get()
+                    )
+            ),
+            ModCreativeModeTab.WhitestarTab);
+    public static final RegistryObject<Block> WHITE_PLANKS_STAIR = registerBlock("white_stairs",
+            () -> new StairBlock(WHITE_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(
+                            ModBlocks.WHITE_PLANKS.get()
+                    )
+            ),
+            ModCreativeModeTab.WhitestarTab);
 
     public static final RegistryObject<Block> WHITE_SAPLING = registerBlock("white_sapling", 
     () -> new SaplingBlock(new WhiteTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.WhitestarTab);

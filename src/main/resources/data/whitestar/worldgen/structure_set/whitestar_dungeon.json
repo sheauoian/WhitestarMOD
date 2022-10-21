@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "whitestar:whitestar_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "whitestar:whitestar_dungeon_tall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1410780728,
+    "spacing": 20,
+    "separation": 10
+  }
+}

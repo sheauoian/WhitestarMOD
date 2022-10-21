@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "whitestar:block/white_planks",
+    "side": "whitestar:block/white_planks",
+    "top": "whitestar:block/white_planks"
+  }
+}

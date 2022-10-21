@@ -33,8 +33,13 @@ public class CatalystItem extends Item {
                 for(Direction direction : Direction.Plane.VERTICAL) {
                     BlockPos framePos = context.getClickedPos().relative(direction);
                     if(((DFPortalBlock) ModBlocks.DONFAI_PORTAL.get()).trySpawnPortal(context.getLevel(), framePos)) {
-                        context.getLevel().playSound(context.getPlayer(), framePos,
-                                SoundEvents.PORTAL_TRIGGER, SoundSource.BLOCKS, 1.0F, 1.0F);
+                        context.getLevel().playSound(
+                                context.getPlayer(),
+                                framePos,
+                                SoundEvents.PORTAL_TRIGGER,
+                                SoundSource.BLOCKS,
+                                1.0F,
+                                1.0F);
                         return InteractionResult.CONSUME;
                     }
                     else {

@@ -11,7 +11,7 @@ import net.minecraft.world.level.dimension.DimensionType;
 public class ModDimensions {
     public static final ResourceKey<Level> DONFAIDIM_KEY = ResourceKey.create(
         Registry.DIMENSION_REGISTRY, 
-        new ResourceLocation(Whitestar.MODID, "oistar"));
+        new ResourceLocation(Whitestar.MODID, "donfai"));
 
     public static final ResourceKey<DimensionType> DONFAIDIM_TYPE = ResourceKey.create(
         Registry.DIMENSION_TYPE_REGISTRY, 
