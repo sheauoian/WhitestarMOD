@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "P": {
+        "item": "minecraft:white_planks"
+      }
+    },
+    "pattern": [
+      "P",
+      "PP",
+      "PPP"
+    ],
+    "result": {
+      "item": "whitestar:cosmic_sword"
+    }
+  }
