@@ -2,13 +2,11 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "P": {
-        "item": "minecraft:white_planks"
+        "item": "whitestar:white_planks"
       }
     },
     "pattern": [
-      "PPP",
-      "",
-      ""
+      "PPP"
     ],
     "result": {
       "item": "whitestar:white_slab",

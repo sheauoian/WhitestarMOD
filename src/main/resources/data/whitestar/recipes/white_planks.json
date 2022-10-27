@@ -1,13 +1,19 @@
 {
+
     "type": "minecraft:crafting_shapeless",
     "group": "planks",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
     "ingredients": [
         {
-          "item": "whitestar:white_log"
+            "item": "whitestar:white_log"
         }
-      ],
-      "result": {
+    ],
+    "result": {
         "item": "whitestar:white_planks",
         "count": 4
-      }
     }
+}

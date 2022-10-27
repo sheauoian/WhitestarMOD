@@ -1,5 +1,19 @@
 {
     "block.whitestar.cosmic_planks": "Cosmic Planks",
-    "item.whitestar.dirty_water_bucket": "Dirty Water Bucket",
-    "item.whitestar.cosmic_sword": "Cosmic Sword"
+    "block.whitestar.cosmic_log": "Cosmic Log",
+    "block.whitestar.cosmic_wood": "星の木",
+    "block.whitestar.stripped_cosmic_log": "皮を剝いだ星の木材",
+    "block.whitestar.stripped_cosmic_wood": "皮を剥いだ星の木",
+    "block.whitestar.cosmic_leaves": "星の葉",
+    "block.whitestar.cosmic_sapling": "星の苗木",
+    "block.whitestar.white_planks": "白の木材",
+    "block.whitestar.white_log": "白の原木",
+    "block.whitestar.white_wood": "白の木",
+    "block.whitestar.stripped_white_log": "皮を剝いだ白の木材",
+    "block.whitestar.stripped_white_wood": "皮を剥いだ白の木",
+    "block.whitestar.white_sapling": "白の苗木",
+    "block.whitestar.white_leaves": "白の葉",
+    "item.whitestar.dirty_water_bucket": "三級河川の水入りバケツ",
+    "item.whitestar.cosmic_sword": "星の剣",
+    "item.whitestar.oistar": "オイスター"
 }
